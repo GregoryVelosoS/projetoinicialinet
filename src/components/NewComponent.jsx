@@ -1,14 +1,14 @@
-import "./NewComponent.css"; 
+// import "./css/NewComponent.css";
 
 const NewComponent = () => {
   const isGerente = true; // variável para verificar se é gerente
-  return ( 
-    <div> 
-      <h1 
+  return (
+    <div>
+      <h1
         style={
           isGerente // faz a verificação se é gerente
             ? { color: "aquamarine", backgroundColor: "pink" } // se der verdadeiro
-            : { color: "red", backgroundColor: "lightblue" }// se der falso
+            : { color: "red", backgroundColor: "lightblue" } // se der falso
         }
       >
         Aqui vem uma estilização

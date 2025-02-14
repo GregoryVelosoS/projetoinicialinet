@@ -1,11 +1,11 @@
-import styles from './OtherComponent.module.css';
+import styles from "./css/OtherComponent.module.css";
 
 const OtherComponent = () => {
   return (
     <div>
-    <h2 className={styles.titulo}>Eu sou o melhor</h2> 
+      <h2 className={styles.titulo}>Eu sou o melhor</h2>
     </div>
-  )
-}
+  );
+};
 
-export default OtherComponent
+export default OtherComponent;

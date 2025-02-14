@@ -20,20 +20,41 @@ const TestUseState = () => {
       <h2> Teste de troca de número com useState</h2>
       <h3>Valor atual: {number}</h3>
       <button
-        style={{ backgroundColor: "purple", color: "yellow", marginRight:'5px', borderRadius:'25px' }}
-        onClick={() => {setNumber(number - 1)}}
+        style={{
+          backgroundColor: "purple",
+          color: "yellow",
+          marginRight: "5px",
+          borderRadius: "25px",
+        }}
+        onClick={() => {
+          setNumber(number - 1);
+        }}
       >
         -
-      </button>       
+      </button>
       <button
-        style={{ backgroundColor: "purple", color: "yellow", marginRight:'5px', borderRadius:'25px' }}
-        onClick={() => {setNumber(number + 1)}}
+        style={{
+          backgroundColor: "purple",
+          color: "yellow",
+          marginRight: "5px",
+          borderRadius: "25px",
+        }}
+        onClick={() => {
+          setNumber(number + 1);
+        }}
       >
         +
       </button>
       <button
-        style={{ backgroundColor: "purple", color: "yellow", marginRight:'5px', borderRadius:'25px' }}
-        onClick={() => {setNumber(7)}}
+        style={{
+          backgroundColor: "purple",
+          color: "yellow",
+          marginRight: "5px",
+          borderRadius: "25px",
+        }}
+        onClick={() => {
+          setNumber(7);
+        }}
       >
         Resetar
       </button>
